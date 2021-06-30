@@ -48,7 +48,7 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @orange;
+@primaryColor        : @tayaPrimary;
 @secondaryColor      : @doveGray;
 @accentColor1        : #173163;
 @accentColor2        : #f5385b;
@@ -82,6 +82,8 @@
 @aliceBlue        : #f7fcff;
 @alabaster        : #f7f7f7;
 @pureBlack        : #000000;
+
+@tayaPrimary: #5577aa;
 
 /*-------------------
         Page
