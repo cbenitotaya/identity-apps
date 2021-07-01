@@ -25,7 +25,16 @@
                     padding-left: @settingsSectionInnerListHeaderPaddingLeft;
                 }
             }
+            .description {
+                color: var(--textColor400);
+            }
         }
+    }
+    & > .item .description {
+        color: #acacac;
+    }
+    & > .item .header {
+        color: var(--textColor);
     }
 }
 
@@ -93,7 +102,7 @@
             &-default {
                 border: @resourceListFillVariationOuterBorder;
                 border-radius: @defaultBorderRadius;
-                background: @lightPageBackground;
+                background: var(--lightPageBackground);
                 
                 > .item {
                     padding: @resourceListFillVariationItemPadding;

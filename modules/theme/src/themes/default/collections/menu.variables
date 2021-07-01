@@ -21,26 +21,26 @@
             Menu
 *******************************/
 
-@background: @pageBackground;
-@verticalBackground: @pageBackground;
-@sidePanelDefaultFontColor: @textColor;
+@background: var(--pageBackground);
+@verticalBackground: var(--pageBackground);
+@sidePanelDefaultFontColor: var(--textColor);
 
 /*-------------------
       App Header
 --------------------*/
 
 @appHeaderDisplay: block;
-@appHeaderBackground: @lightPageBackground;
+@appHeaderBackground: var(--lightPageBackground);
 @appHeaderHeight: auto;
 @appHeaderBoxShadow: none;
-@appHeaderBorderBottom: 1px solid @galleryGray;
+@appHeaderBorderBottom: 1px solid var(--textColor200);
 @appHeaderHamburgerIconColor: inherit;
 
-@appHeaderContainerBackground: inherit;
+@appHeaderContainerBackground: var(--pageBackground);
 
 @appHeaderSecondaryPanelDisplay: block;
 @appHeaderSecondaryPanelHeight: 50px;
-@appHeaderSecondaryPanelBackground: @lightPageBackground;
+@appHeaderSecondaryPanelBackground: var(--lightPageBackground);
 @appHeaderSecondaryPanelBoxShadow: none;
 @appHeaderSecondaryPanelBorderLeft: 0;
 @appHeaderSecondaryPanelBorderRight: 0;
@@ -59,7 +59,7 @@
 @appHeaderSecondaryPanelPortalSwitchBorderBottom: 3px solid transparent;
 
 @appHeaderSecondaryPanelPortalSwitchActiveBackground: inherit;
-@appHeaderSecondaryPanelPortalSwitchActiveColor: @textColor;
+@appHeaderSecondaryPanelPortalSwitchActiveColor: var(--textColor);
 @appHeaderSecondaryPanelPortalSwitchActiveBorderBottom: 3px solid @primaryColor;
 @appHeaderSecondaryPanelPortalSwitchInactiveBorderBottom: 3px solid @whiteSmoke;
 
@@ -67,7 +67,7 @@
 
 @appHeaderPortalSwitchExtensionBackgroundColor: transparent !important;
 @appHeaderPortalSwitchExtensionColor: @mutedTextColor !important;
-@appHeaderPortalSwitchExtensionActiveColor: @textColor !important;
+@appHeaderPortalSwitchExtensionActiveColor: var(--textColor)!important;
 @appHeaderPortalSwitchExtensionActiveBorderBottom: 3px solid @primaryColor;
 
 @appHeaderExtensionItemPaddingLeft: 3px;
@@ -78,16 +78,16 @@
       App Footer
 --------------------*/
 
-@appFooterBackground: @lightPageBackground;
+@appFooterBackground: var(--lightPageBackground);
 @appFooterHeight: 50px;
-@appFooterLinkColor: @textColor;
+@appFooterLinkColor: var(--textColor);
 @appFooterLinkTextDecoration: underline;
 
 /*-------------------
     Side Panel Menu
 --------------------*/
 
-@sidePanelDefaultFontColor: @black;
+@sidePanelDefaultFontColor: var(--textColor);
 @sidePanelActiveFontColor: @primaryColor;
 @sidePanelHoverFontColor: @primaryColor;
 
@@ -121,8 +121,8 @@
 @listPaginationItemBorderColor: @lightBorderColor;
 @listPaginationItemBorder: @defaultBorderWidth solid @listPaginationItemBorderColor;
 @listPaginationItemBorderRadius: @defaultBorderRadius;
-@listPaginationItemBackground: @lightPageBackground;
-@listPaginationItemColor: lighten(@textColor, 20);
+@listPaginationItemBackground: var(--lightPageBackground);
+@listPaginationItemColor: var(--textColor400) ;
 
 @listPaginationItemHoverColor: @primaryColor;
 @listPaginationItemHoverBorderColor: @lightBorderColor;
@@ -142,7 +142,7 @@
 @userDropdownLinkedAccountMargin: 8px 0;
 @userDropdownTenantMargin: 5px 0;
 @userDropdownTenantPadding: 5px 10px;
-@userDropdownTriggerTextColor: inherit;
+@userDropdownTriggerTextColor: var(--textColor);
 @userDropdownTriggerPaddingLeft: 13px;
 
 /*-------------------------------

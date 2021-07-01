@@ -16,7 +16,7 @@
 
         &.primary {
             color: @white;
-            background: @primaryColor;
+            background: var(--primaryColor);
         }
         &.secondary {
             color: @white;

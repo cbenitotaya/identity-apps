@@ -33,7 +33,7 @@
             .app-avatar {
                 &.bg-image {
                     .initials {
-                        text-shadow: 1px 1px 3px darken(@primaryColor, 20);
+                        text-shadow: 1px 1px 3px var(--tayaPrimaryColor800);
                     }
                 }
             }

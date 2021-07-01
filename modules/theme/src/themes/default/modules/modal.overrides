@@ -325,7 +325,7 @@
         width: 535px;
         .totp-header {
             height: 150px;
-            background-color: @primaryColor;
+            background-color: var(--primaryColor);
             color: @white;
             border: none;
             padding: 0;
@@ -360,7 +360,7 @@
         }
 
         .link {
-            color: @primaryColor;
+            color: var(--primaryColor);
             cursor: pointer;
             text-weight: bold;
             max-width: max-content;

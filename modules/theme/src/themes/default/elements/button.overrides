@@ -20,7 +20,7 @@
 .ui.button {
     &.link-button {
         background: transparent !important;
-        color: @primaryColor;
+        color: var(--primaryColor);
 
         &:hover {
             background: transparent;
@@ -173,24 +173,24 @@
     }
 
     &.test-button {
-        color: @primaryColor !important;
-        border-color: @primaryColor;
-        box-shadow: 0 0 0 1px @primaryColor inset;
+        color: var(--primaryColor) !important;
+        border-color: var(--primaryColor);
+        box-shadow: 0 0 0 1px var(--primaryColor) inset;
 
         &:hover, &:focus {
-            box-shadow: 0 0 0 1px @primaryColor inset;
-            color: @primaryColor !important;
+            box-shadow: 0 0 0 1px var(--primaryColor) inset;
+            color: var(--primaryColor) !important;
 
             i {
-                color: @primaryColor;
+                color: var(--primaryColor);
             }
         }
 
         i {
-            color: @primaryColor;
+            color: var(--primaryColor);
 
             &:hover {
-                color: @primaryColor;
+                color: var(--primaryColor);
             }
         }
 

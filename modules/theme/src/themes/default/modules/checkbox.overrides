@@ -14,14 +14,14 @@
 .ui.checkbox {
     &.invite-selection {
         label::after {
-            background-color: @primaryColor !important;
+            background-color: var(--primaryColor) !important;
         }
         label::before {
             border-color: #c8c8c8 !important;
         }
          &.selected {
             label::before {
-                border-color: @primaryColor !important;
+                border-color: var(--primaryColor) !important;
             }
          }
     }

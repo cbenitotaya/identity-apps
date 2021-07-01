@@ -6,7 +6,7 @@
           Text
 ------------------------*/
 
-@textTypographyColor: @textColor;
+@textTypographyColor: var(--textColor);
 @textTypographyFontSize: @fontSize;
 @textTypographyMargin: 0 0 1em;
 @textTypographyMutedColor: @lightTextColor;

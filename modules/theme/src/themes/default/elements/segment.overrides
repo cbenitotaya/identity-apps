@@ -179,7 +179,7 @@
             color: #9c9c9c !important;
 
             &:hover {
-                color: @primaryColor !important;
+                color: var(--primaryColor) !important;
             }
         }
     }
@@ -523,7 +523,7 @@
                 background-color: @white;
             }
             &-primary {
-                background-color: @primaryColor;
+                background-color: var(--primaryColor);
             }
             &-secondary {
                 background-color: @secondaryColor;
@@ -590,7 +590,7 @@
         }
 
         &.active {
-            border-color: @primaryColor;
+            border-color: var(--primaryColor);
         }
     }
 }

@@ -22,6 +22,11 @@
 *******************************/
 
 .ui.menu {
+    color: var(--textColor);
+    & .item {
+        color: var(--textColor);
+    }
+
     &.app-header, &.app-footer {
         .item {
             &:hover, &:active, &:focus, &:visited {
@@ -31,13 +36,13 @@
     }
     &.app-header {
         display: @appHeaderDisplay;
-        background: @appHeaderBackground;
+        background: var(--lightPageBackground);
         height: @appHeaderHeight;
         box-shadow: @appHeaderBoxShadow;
         border-bottom: @appHeaderBorderBottom;
 
         .app-header-container {
-            background: @appHeaderContainerBackground;
+            background: var(--lightPageBackground);
 
             .icon.bars {
                 color: @appHeaderHamburgerIconColor;
@@ -211,10 +216,10 @@
                         }
                     }
                     .link-icon {
-                        color: @textColor;
+                        color: var(--textColor);
                     }
                     .link-text {
-                        color: @textColor;
+                        color: var(--textColor);
                         text-decoration: none;
                     }
                     .action-button {
@@ -314,12 +319,13 @@
         width: @governanceConnectorCategoriesMenuWidth;
 
         .item.active {
-            border-left: @activeBorderWidth @primaryColor solid;
+            border-left: @activeBorderWidth var(--primaryColor) solid;
         }
     }
 
     &.side-panel {
         // override the box shadow and border in the semantic ui menu component
+        background-color: var(--pageBackground);
         box-shadow: none;
         border-radius: 0;
 
@@ -348,7 +354,7 @@
         .side-panel-category {
             font-size: @sidePanelCategoryFontSize;
             text-transform: @sidePanelCategoryTextTransform;
-            color: @lightFontColor;
+            color: var(--textColor400);
             padding-left: @itemHorizontalPadding;
             margin-bottom: @sidePanelCategoryMarginBottom;
 

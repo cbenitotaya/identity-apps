@@ -33,6 +33,7 @@ h6.ui.header .sub.header {
     &.page-header {
         .sub-header {
             margin-top: @pageHeaderInnerMargin;
+            color: var(--textColor400);
         }
 
         &:not(.no-max-width) {
@@ -47,6 +48,7 @@ h6.ui.header .sub.header {
 -------------------------------*/
 
 .ui.header {
+    color: var(--textColor);
     &.heading {
         &.ellipsis {
             white-space: nowrap;
@@ -65,7 +67,6 @@ h6.ui.header .sub.header {
 
         &.subheading {
             margin-top: 2px;
-            color: @dustyGray;
             text-overflow: ellipsis;
             white-space: nowrap;
             overflow: hidden;

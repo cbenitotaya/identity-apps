@@ -258,7 +258,7 @@
             }
             &.default-app-icon {
                 .initials {
-                    color: @primaryColor;
+                    color: var(--primaryColor);
                 }
             }
             &.mini {

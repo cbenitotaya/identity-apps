@@ -52,10 +52,10 @@ body {
             font-weight: @productVersionLabelFontWeight;
 
             &.primary {
-                background-color: @primaryColor !important;
+                background-color: var(--primaryColor) !important;
             }
             &.secondary {
-                background-color: @secondaryColor !important;
+                background-color: var(--secondaryColor) !important;
             }
         }
         
@@ -108,7 +108,7 @@ body {
     }
 
     &.primary {
-        color: @primaryColor;
+        color: var(--primaryColor);
     }
 }
 
@@ -830,10 +830,10 @@ body {
             background-color: @iconWrapperBgColor;
         }
         &-primary {
-            background-color: @primaryColor;
+            background-color: var(--primaryColor);
         }
         &-secondary {
-            background-color: @secondaryColor;
+            background-color: var(--secondaryColor);
         }
         &-accent1 {
             background-color: @accentColor1;
@@ -860,19 +860,19 @@ body {
         }
         &-primary {
             svg.icon .path {
-                fill: @primaryColor;
+                fill: var(--primaryColor);
 
                 &.stroke {
-                    stroke: @primaryColor;
+                    stroke: var(--primaryColor);
                 }
             }
         }
         &-secondary {
             svg.icon .path {
-                fill: @secondaryColor;
+                fill: var(--secondaryColor);
 
                 &.stroke {
-                    stroke: @secondaryColor;
+                    stroke: var(--secondaryColor);
                 }
             }
         }
@@ -917,7 +917,7 @@ body {
         .fill {
             &.faded {
                 &.primary {
-                    fill: @primaryColor;
+                    fill: var(--primaryColor);
                     fill-opacity: 0.15;
                 }
             }
@@ -1085,14 +1085,14 @@ body {
 
         &-primary {
             &:hover {
-                color: @primaryColor;
+                color: var(--primaryColor);
 
                 .icon {
-                    color: @primaryColor;
+                    color: var(--primaryColor);
                 }
                 svg.icon {
                     .path {
-                        fill: @primaryColor;
+                        fill: var(--primaryColor);
                     }
                 }
             }
@@ -1324,7 +1324,7 @@ body {
 
 .styles_loading-bar__13vNf {
     &.app-top-loading-bar {
-        background: @primaryColor !important;
+        background: var(--primaryColor) !important;
     }
 }
 
@@ -1730,7 +1730,7 @@ body {
 .claims-avatar-background {
     .fill {
         &.primary{
-            fill: @primaryColor;
+            fill: var(--primaryColor);
         }
 
         &.secondary {
@@ -1769,7 +1769,7 @@ body {
 svg.illustration {
     .fill {
         &.primary {
-            fill: @primaryColor;
+            fill: var(--primaryColor);
         }
 
         &.secondary {
@@ -1779,7 +1779,7 @@ svg.illustration {
 
     .stroke {
         &.primary {
-            stroke: @primaryColor;
+            stroke: var(--primaryColor);
         }
 
         &.secondary {
@@ -1877,7 +1877,7 @@ code {
 
         &.font-color {
             &-inherit {
-                color: @textColor;
+                color: var(--textColor);
             }
         }
     }

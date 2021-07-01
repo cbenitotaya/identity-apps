@@ -24,7 +24,7 @@
 @filterLabelHorizontalPadding: 15px;
 @filterLabelBorderRadius: 15px;
 @filterLabelHoverBorderColor: @primaryColor;
-@filterLabelHoverTextColor: @textColor;
+@filterLabelHoverTextColor: var(--textColor);
 @filterLabelHoverBackgroundColor: transparent;
 @filterLabelActiveBackgroundColor: @primaryColor;
 @filterLabelActiveBorderColor: @primaryColor;

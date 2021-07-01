@@ -22,6 +22,7 @@
 *******************************************/
 
 .ui.progress {
+    background: var(--progressBar);
     &.account-status-progress {
         .label {
             text-align: left;
